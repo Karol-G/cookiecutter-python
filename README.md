@@ -28,7 +28,7 @@ Select github_repository_url:
 2 - provide later
 Choose from 1, 2 [1]:
 module_name [my_project]: my_project
-short_description [A Python project.]:
+short_description [A Python project]:
 use_git_tags_for_versioning [n]:
 Select license:
 1 - BSD-3

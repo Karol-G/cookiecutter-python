@@ -5,7 +5,7 @@
     "project_name": "project-foobar",
     "github_repository_url": ["https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_name}}", "provide later"],
     "module_name": "{{ cookiecutter.project_name|lower|replace('-', '_') }}",
-    "short_description": "A python project.",
+    "short_description": "A python project",
     "use_git_tags_for_versioning": "n",
     "install_precommit": "n",
     "license": [
