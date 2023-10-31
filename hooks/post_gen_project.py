@@ -24,21 +24,8 @@ def remove_temp_folders(temp_folders):
         shutil.rmtree(folder, ignore_errors=True)
 
 
-def remove_unrequested_plugin_examples():
-    module = "{{ cookiecutter.module_name }}"
-    {% for key, value in cookiecutter.items() %}
-    {% if key.startswith('include_') and key.endswith("_plugin") and value != 'y' %}
-    name = "{{ key }}".replace("include_", "").replace("_plugin", "")
-    remove_file(f"{module}/_{name}.py")
-    remove_file(f"{module}/_tests/test_{name}.py")
-    logger.debug(f"removing {module}/_{name}.py")
-    {% endif %}
-    {% endfor %}
-
-
 if __name__ == "__main__":
     remove_temp_folders(ALL_TEMP_FOLDERS)
-    remove_unrequested_plugin_examples()
 
     msg = ''
     # try to run git init

@@ -56,7 +56,7 @@ my-project/
 ├── MANIFEST.in
 ├── my_project
 │   ├── __init__.py
-│   └── _tests
+│   └── tests
 │       ├── __init__.py
 ├── pyproject.toml
 ├── README.md
