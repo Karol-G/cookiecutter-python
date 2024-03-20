@@ -15,7 +15,7 @@ Project description...
 
 ## Installation
 
-You can install `{{cookiecutter.project_name}}` via [pip]:
+You can install `{{cookiecutter.project_name}}` via [pip](https://pypi.org/project/{{cookiecutter.project_name}}/):
 
     pip install {{cookiecutter.project_name}}
 
