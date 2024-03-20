@@ -4,6 +4,7 @@
 [![PyPI](https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg?color=green)](https://pypi.org/project/{{cookiecutter.project_name}})
 [![Python Version](https://img.shields.io/pypi/pyversions/{{cookiecutter.project_name}}.svg?color=green)](https://python.org)
 [![tests](https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_name}}/workflows/tests/badge.svg)](https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_name}}/actions)
+![Unit Tests](https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_name}}/actions/workflows/test_and_deploy.yml/badge.svg?branch=main)
 [![codecov](https://codecov.io/gh/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_name}}/branch/main/graph/badge.svg)](https://codecov.io/gh/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.project_name}})
 
 {{cookiecutter.short_description}}
