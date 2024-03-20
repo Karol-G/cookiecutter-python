@@ -38,7 +38,7 @@ Distributed under the terms of the [{{cookiecutter.license}}] license,
 
 ## Issues
 
-If you encounter any problems, please [file an issue] along with a detailed description.
+If you encounter any problems, please file an issue along with a detailed description.
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
 [MIT]: http://opensource.org/licenses/MIT
